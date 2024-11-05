@@ -1,0 +1,2 @@
+package.json안에
+dev에 --turbo를 삭제
