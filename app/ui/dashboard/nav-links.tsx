@@ -36,7 +36,7 @@ export default function NavLinks() {
             href={link.href}
             className={clsx(
               'bg-[#f9fafb] rounded-md flex h-[48px] items-center px-3 gap-2 text-[14px] hover:bg-[#e0f2fe] hover:text-[#2f6feb] sm:flex-grow sm:justify-center',
-              { 'bg-[#e0f2ff] text-[#2f6fea]': pathname === link.href }
+              { 'bg-[#e0f2fe] text-[#2f6feb]': pathname === link.href }
               // { 'bg-[#e0f2ff] text-[#2f6feb]': index === i }
             )}
             // onClick={() => setindex(i)}
